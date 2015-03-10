@@ -31,7 +31,23 @@
 </head>
 
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1549582651975310',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     <div class="brand">ub acm</div>
     <div class="address-bar">Association for Computing Machinery</div>
 
@@ -92,6 +108,16 @@
                     <strong>WHAT WE DO.</strong>
                     <p>We hold regular events, such as our  bi-weekly Web and Android Development workshops, study breaks (Bowling nights and Mini-Golf breaks). We also hold a variety of career events, such as a Resume Workshops or mock technical interviews.</p>
                 </div>
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h4><strong>Check us out by coming to one of our events!</strong></h4>
+                    <div
+                    class="fb-like"
+                    data-share="true"
+                    data-width="450"
+                    data-show-faces="true">
+                </div>
+                </div>
+                <div id="fb-root"></div>
                 <div class="clearfix"></div>
             </div>
         </div>
