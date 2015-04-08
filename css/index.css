@@ -12,7 +12,7 @@
 }
 
 .officer-photo {
-    max-height: 20em;
+    max-height: 10em;
 }
 
 .jumbotron {
@@ -30,4 +30,11 @@
 
 #mc-embedded-subscribe {
     color: white;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 200px;
+  padding-right: 200px;
 }
