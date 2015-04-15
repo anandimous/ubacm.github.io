@@ -30,6 +30,12 @@
   color: black;
 }
 
+.vcenter {
+    display:table-cell;
+    vertical-align:middle;
+    float:none;
+}
+
 .jumbotron {
     background: linear-gradient(
       rgba(0, 0, 0, 0.45), 
