@@ -30,7 +30,9 @@
   color: black;
 }
 
+
 /*small screens*/
+
 .jumbotron {
     background: url("../img/bg.png") no-repeat center;
     background-size: auto 100%;
