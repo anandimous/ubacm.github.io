@@ -30,15 +30,24 @@
   color: black;
 }
 
+/*small screens*/
 .jumbotron {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ),url("../img/bg.png") no-repeat center center;
-    background-size: 100%;
+    background: url("../img/bg.png") no-repeat center;
+    background-size: auto 100%;
     color: rgba(255,255,255, 0.9);
     height: 400px;
     margin-bottom: 200px;
+}
+
+/*big screens*/
+@media (min-width: 768px) {
+  .jumbotron {
+      background: url("../img/bg.png") no-repeat center;
+      background-size: 100%;
+      color: rgba(255,255,255, 0.9);
+      height: 400px;
+      margin-bottom: 200px;
+  }
 }
 
 .jumbotron input {
