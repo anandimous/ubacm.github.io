@@ -38,10 +38,15 @@ body {
 }
 
 .profile {
-  max-height: 180px;
-  max-width: 180px;
+  max-height: 250px;
+  max-width: 250px;
+  margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+.profile-behind {
+  
 }
 
 .header{
